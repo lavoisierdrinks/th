@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+Disallow: /lavoiserdrinks/obrigado/
+Sitemap: https://lavoisierdrinks.github.io/lavoiserdrinks/sitemap.xml
