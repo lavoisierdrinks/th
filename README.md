@@ -23,15 +23,15 @@ O script gera o ZIP de forma determinística e verifica sua integridade. Inclua 
 Sirva o pacote completo para incluir as imagens. A partir da raiz do repositório:
 
 ```sh
-mkdir -p /tmp/lavoisier-preview/lavoiserdrinks
-python3 -m zipfile -e lavoisier-drinks-github.zip /tmp/lavoisier-preview/lavoiserdrinks
+mkdir -p /tmp/lavoisier-preview/th
+python3 -m zipfile -e lavoisier-drinks-github.zip /tmp/lavoisier-preview/th
 python3 -m http.server 8000 --directory /tmp/lavoisier-preview
 ```
 
-A página inicial usa o caminho `/lavoiserdrinks/`. Verifique também `/lavoiserdrinks/privacidade/`, o menu no celular, a seleção interativa dos três sabores e as perguntas frequentes. Os detalhes e a navegação permanecem disponíveis sem JavaScript.
+A página inicial usa o caminho `/th/`. Verifique também `/th/privacidade/`, o menu no celular, a seleção interativa dos três sabores e as perguntas frequentes. Os detalhes e a navegação permanecem disponíveis sem JavaScript.
 
 ## Publicar
 
-Em Settings → Pages, selecione **GitHub Actions**. O workflow **Publish Lavoisier Drinks** publica em pushes na branch `main` e também pode ser executado manualmente. Endereço: https://lavoisierdrinks.github.io/lavoiserdrinks/.
+Em Settings → Pages, selecione **GitHub Actions**. O workflow **Publish Lavoisier Drinks** publica em pushes na branch `main` e também pode ser executado manualmente. Endereço: https://lavoisierdrinks.github.io/th/.
 
 O site apresenta o conceito da marca e direciona o contato para o Instagram. Não inclui pedidos, pagamentos, rastreamento ou formulários. As imagens são ilustrativas. Uma mudança no endereço do GitHub Pages exige atualizar as URLs canônicas, metadados sociais, sitemap, robots e os caminhos da página 404.
